@@ -6,6 +6,8 @@ quantos numeros você acertou.
 
 **Não é para jogos oficiais**
 
+[site do simulador](https://carloscacho.github.io/simulador_loteria/)
+
 ## Tecnologias utilizadas
 1. **HTML**: HTML é uma linguagem de marcação utilizada na construção da estruturas das páginas na Web.
 2. **CSS**: Cascading Style Sheets (CSS) é um mecanismo para adicionar estilo (cores, fontes, espaçamento, etc.) a um documento web.
