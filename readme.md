@@ -1,4 +1,5 @@
 # Simulador de Loteria
+Acesse o site 
 [site do aplicativo](https://carloscacho.github.io/simulador_loteria/)
 
 Este projeto é um simulador da *megasenna*, onde o usuário digita seis numero.
