@@ -59,7 +59,10 @@ function addToList(num, pos) {
 |Exemplo 4 | R$ 8             | 23
 
 ## imagens da tela
+tela 1: tela de abertura
 ![tela 1](/imagens/tela1.png)
+tela 2: 6 numeros digitados nenhum soreteado
+![](/imagens/tela2.png)
 
 #### referencias
 * HTML: [wikipedia](https://pt.wikipedia.org/wiki/HTML)
