@@ -70,3 +70,5 @@ tela 2: 6 numeros digitados nenhum soreteado
 * HTML: [wikipedia](https://pt.wikipedia.org/wiki/HTML)
 * CSS: [w3Shools](https://www.w3schools.com/css/)
 * JavaScript: [wikipedia](https://pt.wikipedia.org/wiki/JavaScript)
+
+by @carloscacho e melhorado por @prof-carloscacho
