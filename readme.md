@@ -1,12 +1,12 @@
 # Simulador de Loteria
-acesse a pagina do simulador
-[site do simulador](https://carloscacho.github.io/simulador_loteria/)
 
 Este projeto é um simulador da *megasenna*, onde o usuário digita seis numero.
 E sorteamos aleatoriamente outros seis numeros e comparamos para verificar.
 quantos numeros você acertou.
 
 **Não é para jogos oficiais**
+
+[site do simulador](https://carloscacho.github.io/simulador_loteria/)
 
 ## Tecnologias utilizadas
 1. **HTML**: HTML é uma linguagem de marcação utilizada na construção da estruturas das páginas na Web.
@@ -53,12 +53,12 @@ function addToList(num, pos) {
 > Simplemente baixe e o codigo e abra o arquivo **_index.html_** no seu navegador
 
 ## exmplo de tabela
-|Exemplo   | Valor do exemplo | quantidade
-|--------- | -----------------|-----------
-|Exemplo 1 | R$ 10            | 5
-|Exemplo 2 | R$ 8             | 4
-|Exemplo 3 | R$ 7             | 34
-|Exemplo 4 | R$ 8             | 23
+Exemplo   | Valor do exemplo | quantidade
+--------- | -----------------|-----------
+Exemplo 1 | R$ 10            | 5
+Exemplo 2 | R$ 8             | 4
+Exemplo 3 | R$ 7             | 34
+Exemplo 4 | R$ 8             | 23
 
 ## imagens da tela
 tela 1: tela de abertura
