@@ -2,32 +2,35 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Loteria Digital JS</title>
+    <title>Loteria Digital</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
     <div class="container">
-      <h1>Teste de Loteria javascript</h1>
+    <h1>Teste Loteria</h1>
 
-      <div class="entradas">
-        <input type="number" name="num1" id="num1" onchange="addToList(value,1)">
-        <input type="number" name="num2" id="num2" onchange="addToList(value,2)">
-        <input type="number" name="num3" id="num3" onchange="addToList(value,3)">
-        <input type="number" name="num4" id="num4" onchange="addToList(value,4)">
-        <input type="number" name="num5" id="num5" onchange="addToList(value,5)">
-        <input type="number" name="num6" id="num6" onchange="addToList(value,6)">
-      </div>
-
-      <br>
-      <button type="button" name="button" onclick="verificarAcertos()">SORTEAR</button>
-
-      <ul id="NumSort">
-      </ul>
-
-      <p id="totalAcertos"></p>
-
+    <div class="entradas">
+      <input type="number" name="num1" id="num1" onchange="addToList(value,1)">
+      <input type="number" name="num2" id="num2" onchange="addToList(value,2)">
+      <input type="number" name="num3" id="num3" onchange="addToList(value,3)">
+      <input type="number" name="num4" id="num4" onchange="addToList(value,4)">
+      <input type="number" name="num5" id="num5" onchange="addToList(value,5)">
+      <input type="number" name="num6" id="num6" onchange="addToList(value,6)">
     </div>
+
+    <br>
+    <button type="button" name="button" onclick="VerificarAcertos()">SORTEAR</button>
+
+    <ul id="NumSort">
+    </ul>
+
+    <p id="totalAcertos"></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script type="text/javascript" src="script.js">
     </script>
+
   </body>
 </html>
