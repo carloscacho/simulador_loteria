@@ -14,7 +14,7 @@
 // document.body.appendChild(el);
 
 if('serviceWorker' in navigator){
-	navigator.serviceWorker.register('/sw.js')
+	navigator.serviceWorker.register('sw.js')
 		.then(() => console.log('service worker registrado'))
 		.catch(() => console.log('service worker não registrado'))
 }
