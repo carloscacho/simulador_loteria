@@ -8,7 +8,13 @@
  tell the user when there is an update available and let the user know when your PWA is ready to use offline.
 */
 
-import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+// import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+//
+// const el = document.createElement('pwa-update');
+// document.body.appendChild(el);
 
-const el = document.createElement('pwa-update');
-document.body.appendChild(el);
+if('serviceWorker' in navigator){
+	navigator.serviceWorker.register('/sw.js')
+		.then(() => console.log('service worker registrado'))
+		.catch(() => console.log('service worker não registrado'))
+}
