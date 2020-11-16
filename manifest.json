@@ -48,6 +48,11 @@
       "sizes": "192x192",
       "type": "image/png",
       "density": "4.0"
+     },
+     {
+      "src": "imagens/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
      }
     ],
     "url": "https://carloscacho.github.io/simulador_loteria/",
