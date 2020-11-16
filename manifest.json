@@ -1,0 +1,18 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Loteria Digital JS",
+    "short_name": "Loteria Digital",
+    "scope": "/simulador_loteria/",
+    "display": "standalone",
+    "start_url": "https://carloscacho.github.io/simulador_loteria/",
+    "background_color": "#7733aa",
+    "theme_color": "transparent",
+    "description": "",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [],
+    "url": "https://carloscacho.github.io/simulador_loteria/",
+    "screenshots": []
+}
