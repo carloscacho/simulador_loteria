@@ -58,3 +58,15 @@ function alert2(title, text){
   text: text
 })
 }
+
+function shareNoticia(titulo, texto, url) {
+  if (navigator.share) {
+    navigator.share({
+      title: titulo,
+      text: texto,
+      url: url,
+    })
+      .then(() => console.log('Successful share'))
+      .catch((error) => console.log('Error sharing', error));
+  }
+}
