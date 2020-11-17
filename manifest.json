@@ -5,7 +5,7 @@
     "short_name": "Loteria Digital",
     "scope": "/simulador_loteria/",
     "display": "standalone",
-    "start_url": "https://carloscacho.github.io/simulador_loteria/",
+    "start_url": "https://carloscacho.github.io/simulador_loteria/index.html?from=homescreen",
     "background_color": "#ffffff",
     "theme_color": "#aabb33",
     "description": "Aplicatico para terinamento de loteria",
