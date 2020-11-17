@@ -13,7 +13,7 @@ self.addEventListener('fetch', evt => {
   //console.log('fetch event', evt);
 })
 
-export const pwaTrackingListeners = () => {
+const pwaTrackingListeners = () => {
   const fireAddToHomeScreenImpression = event => {
     fireTracking("Add to homescreen shown");
     //will not work for chrome, untill fixed
