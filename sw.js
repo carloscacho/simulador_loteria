@@ -1,9 +1,11 @@
 const cacheName = 'loteria'
 const files = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/script.js',
+  '/simulador_loteria/',
+  '/simulador_loteria/index.html',
+  '/simulador_loteria/style.css',
+  '/simulador_loteria/script.js',
+  '/simulador_loteria/imagens/icons/favicon.ico'
+  'https://cdn.jsdelivr.net/npm/sweetalert2@10'
 
 ]
 
