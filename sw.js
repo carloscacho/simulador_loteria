@@ -4,9 +4,8 @@ const files = [
   '/simulador_loteria/index.html',
   '/simulador_loteria/style.css',
   '/simulador_loteria/script.js',
-  '/simulador_loteria/imagens/icons/favicon.ico'
+  '/simulador_loteria/imagens/icons/favicon.ico',
   'https://cdn.jsdelivr.net/npm/sweetalert2@10'
-
 ]
 
 // instalar o sw
