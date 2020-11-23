@@ -1,4 +1,4 @@
-const cacheName = 'loteria'
+const cacheName = 'loteria-v1'
 const files = [
   '/simulador_loteria/',
   '/simulador_loteria/index.html',
