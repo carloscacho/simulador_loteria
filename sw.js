@@ -21,7 +21,13 @@ self.addEventListener('install', evt => {
 
 // ativar o sw
 self.addEventListener('activate', evt => {
-  console.log('sw está ativado');
+  //console.log('sw está ativado');
+  evt.waitUntil(caches.keys().then(keys => {
+    return Promise.all(keys
+      .filter(key => key !== cacheName)
+      .map(key => caches.delete(key))
+    )
+  }))
 })
 
 // fetch events
